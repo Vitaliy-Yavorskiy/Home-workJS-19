@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content {
+    position: absolute;
+    left: 35%;
+    /* width: 400px; */
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 25px;
+}
+.title{
+    margin-bottom: 20px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 10px;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: rgba(36, 169, 209, 0.808);
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px 3px rgb(139, 231, 231);
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(67, 130, 167);
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:focus {
+    box-shadow: 0px 0px 5px 3px rgb(139, 231, 231);
+    outline: none;
+    cursor: pointer;
+}
+
+.valid {
+    height: 20px;
+    max-width: 240px;
+    display: none;
+    margin: 2px 0;
+    background-color: rgba(165, 49, 49, 0.747);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: start;
+    padding: 5px;
+}
+
+.valid1,
+.valid2 {
+    width: 210px;
+}
+
+.valid3 {
+    width: 230px;
+}
+
+.valid5 {
+    width: 210px;
+}
